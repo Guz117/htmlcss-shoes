@@ -65,7 +65,6 @@ li:hover .selector {
 }
 
 .model {
-    width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,24 +74,20 @@ li:hover .selector {
 .model h1 {
     color: yellow;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     text-transform: uppercase;
     display: inline-block;
+    width: 100%;
 }
 
 .model .converse {
     color: green;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     text-transform: uppercas
 }
 
-.image {
-    
+img{
     width: 100%;
-    display: block;
 }
 
-img {
-    width: 100%;
-}
