@@ -13,6 +13,8 @@ nav {
     position: absolute;
     right: 0;
     top: 3em;
+    position: fixed;
+    z-index: 9;
 }
 
 ul{
@@ -24,8 +26,11 @@ li{
     margin-right: 2em;
 }
 
+li:hover .selector {
+    box-shadow: -5px 3px 3px #464343bd;
+}
+
 .selector {
-    box-shadow: 5px 3px 3px #464343bd;
     display: inline-block;
     margin-right: 10px;
     font-weight: 700;
