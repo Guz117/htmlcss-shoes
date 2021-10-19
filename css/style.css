@@ -45,15 +45,15 @@ li{
     position: relative;
 }
 
-.blue {
+#blue {
     background: red;
 }
 
-.white {
+#white {
     background: green;
 }
 
-.green {
+#green {
     background: yellow;
 }
 
